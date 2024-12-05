@@ -49,6 +49,12 @@
     #   org.gradle.console=verbose
     #   org.gradle.daemon.idletimeout=3600000
     # '';
+	".dotfiles/emp-flake-nix/" = {
+	    source = config.lib.file.mkOutOfStoreSymlink
+	    "${config.home.homeDirectory}/.dotfiles/emp-flake-nix";
+	    recursive = true;
+	};	
+
   };
 
   # Home Manager can also manage your environment variables through
