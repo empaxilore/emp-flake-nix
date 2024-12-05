@@ -4,7 +4,7 @@
 	{
 	    imports = [
 	        ./nvidia.nix
-		./default.nix
+		./hardware-configuration.nix
 
 	    ];
 
