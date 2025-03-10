@@ -12,7 +12,7 @@
 
 		wayland.windowManager.hyprland = {
 			enable = true;
-			systemd.variables = ["--all"];
+			systemd.enable = true;
 			xwayland.enable = true;
 
 			extraConfig = '' 
