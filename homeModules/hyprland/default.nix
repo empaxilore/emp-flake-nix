@@ -229,5 +229,6 @@
   	'';
 
   	# Make sure the directory exists
-  	home.file.".config/hypr/wallpaper.jpg".source = "./wallpaper.jpg";
+  	home.file.".config/hypr/wallpaper.jpg".source = ./wallpaper.jpg;
+	
 }
