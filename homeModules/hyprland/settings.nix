@@ -53,9 +53,7 @@
         		new_optimizations = true;
       		};
       		shadow = { 
-			 enabled = true;
-			 size = 4;
-			 power = 3;
+			 enabled = false;
 		};
     	};
 
@@ -79,8 +77,9 @@
     	};
 
     	master = {
-      		new_is_master = true;
-    	};
+		mfact = 0.5;
+		new_status = "master";
+	};
 
     	# Gestures for touchpad
     	gestures = {
