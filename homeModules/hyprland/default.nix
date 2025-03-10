@@ -42,7 +42,7 @@
 			pavucontrol # Pulse Audio volume Control
 
 			# Applications General
-			thunar
+			xfce.thunar
 
 			# Screenshot and recording
 			grim
