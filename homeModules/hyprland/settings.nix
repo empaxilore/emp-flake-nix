@@ -52,9 +52,11 @@
         		passes = 1;
         		new_optimizations = true;
       		};
-      		drop_shadow = true;
-      		shadow_range = 4;
-      		shadow_render_power = 3;
+      		shadow = { 
+			 enabled = true;
+			 size = 4;
+			 power = 3;
+		};
     	};
 
     	# Animation settings
