@@ -35,6 +35,7 @@
 
 			brightnessctl # Brightness Controls
 			networkmanagerapplet # Network Mangement Tray
+			networkmanager
 			blueman # Bluetooth
 			
 			# Audio Utility

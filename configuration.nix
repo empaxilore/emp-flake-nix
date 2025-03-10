@@ -17,8 +17,8 @@
 
   boot.initrd.luks.devices."luks-c32a60d9-a3ce-4692-8252-54e4be5172c4".device = "/dev/disk/by-uuid/c32a60d9-a3ce-4692-8252-54e4be5172c4";
   networking.hostName = "nixos"; # Define your hostname.
-  networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
-    
+  networking.wireless.enable = false;  # Enables wireless support via wpa_supplicant.
+  networking.networkmanager.enable = true; # connect to wifi using nmtui
 
 	
   # Configure network proxy if necessary
