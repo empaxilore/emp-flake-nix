@@ -2,8 +2,10 @@
 
 	# default for home Modules
 
-	{ pkgs, user, ... }:
+	{ config, pkgs, user, ... }:
 
 	{
-		imports = [];
+		imports = [
+			./hyprland/default.nix
+		];
 	}
