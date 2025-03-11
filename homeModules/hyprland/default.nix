@@ -106,7 +106,7 @@
         			"temperature" = {
           				critical-threshold = 80;
           				format = "{icon} {temperatureC}°C";
-          				format-icons = ["" "" ""];
+          				format-icons = ["" "" ""];
         			};
         
         			"backlight" = {
