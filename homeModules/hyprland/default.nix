@@ -128,7 +128,7 @@
         			};
         
         			"network" = {
-          				format-wifi = " {essid}";
+          				format-wifi = "🛜 {essid}";
         				format-ethernet = " {ipaddr}";
         				format-linked = " (No IP)";
           				format-disconnected = "⚠ Disconnected";
