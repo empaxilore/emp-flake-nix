@@ -128,9 +128,9 @@
         			};
         
         			"network" = {
-          				format-wifi = " {essid}";
-          				format-ethernet = " {ipaddr}";
-          				format-linked = " (No IP)";
+          				format-wifi = " {essid}";
+        				format-ethernet = " {ipaddr}";
+        				format-linked = " (No IP)";
           				format-disconnected = "⚠ Disconnected";
           				format-alt = "{ifname}: {ipaddr}/{cidr}";
         			};
@@ -138,17 +138,17 @@
         			"pulseaudio" = {
           				format = "{icon} {volume}%";
           				format-bluetooth = "{icon} {volume}%";
-          				format-bluetooth-muted = " {icon}";
-          				format-muted = " ";
-          				format-icons = {
-            			headphone = "";
-            			hands-free = "";
-            			headset = "";
-            			phone = "";
-            			portable = "";
-            			car = "";
-            			default = ["" "" ""];
-          			};
+          				format-bluetooth-muted = "";
+        				format-muted = "";
+        				format-icons = {
+          					headphone = "";
+          					hands-free = "";
+          					headset = "";
+          					phone = "";
+          					portable = "";
+          					car = "";
+          					default = ["" "" ""];
+          				};
           			on-click = "pavucontrol";
         			};
         
@@ -162,8 +162,8 @@
       	* {
         	border: none;
         	border-radius: 0;
-        	font-family: "JetBrainsMono Nerd Font";
-        	font-size: 13px;
+        	font-family: "FiraCode Nerd Font", sans-serif;
+        	font-size: 14px;
         	min-height: 0;
       	}
 
