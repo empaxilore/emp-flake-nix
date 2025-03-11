@@ -139,7 +139,7 @@
           				format = "{icon} {volume}%";
           				format-bluetooth = "{icon} {volume}%";
           				format-bluetooth-muted = "";
-        				format-muted = "";
+        				format-muted = "🔇";
         				format-icons = {
           					headphone = "";
           					hands-free = "";
