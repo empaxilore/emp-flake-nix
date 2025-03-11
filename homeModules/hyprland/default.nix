@@ -121,10 +121,10 @@
             				"critical" = 15;
           				};
           				format = "{icon} {capacity}%";
-          				format-charging = " {capacity}%";
-          				format-plugged = " {capacity}%";
-          				format-alt = "{icon} {time}";
-          				format-icons = ["" "" "" "" ""];
+          				format-charging = "⚡ {capacity}%";
+						format-plugged = "🔌 {capacity}%";
+						format-alt = "{icon} {time}";
+						format-icons = ["" "" "" "" ""];
         			};
         
         			"network" = {
