@@ -111,7 +111,7 @@
         
         			"backlight" = {
           				format = "{icon} {percent}%";
-          				format-icons = ["" ""];
+          				format-icons = ["" "☀"];
         			};
         
         			"battery" = {
