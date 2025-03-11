@@ -100,7 +100,7 @@
         			};
         
         			"memory" = {
-          				format = " {}%";
+          				format = "💿 {}%";
         			};
         
         			"temperature" = {
