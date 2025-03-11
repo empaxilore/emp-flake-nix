@@ -95,7 +95,7 @@
         			};
         
         			"cpu" = {
-          				format = " {usage}%";
+          				format = "💻 {usage}%";
           				tooltip = false;
         			};
         
