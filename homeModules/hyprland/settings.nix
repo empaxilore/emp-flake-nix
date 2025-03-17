@@ -105,6 +105,8 @@
       		"$mod, R, exec, $menu"
       		"$mod, F, fullscreen"
       		"$mod, B, exec, $browser"
+		# Screenshot 
+		"$mod, Print, exec, grim -g \"$(slurp)\" - | wl-copy"
       
       		# Window focus
       		"$mod, left, movefocus, l"
