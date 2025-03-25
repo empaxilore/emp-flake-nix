@@ -17,7 +17,7 @@
     		"$terminal" = "kitty";
     		"$fileManager" = "thunar";
     		"$menu" = "wofi --show drun";
-    		"$browser" = "firefox";
+    		"$browser" = "vivaldi";
 
     		# Window layout and behavior
     		general = {
@@ -106,7 +106,7 @@
       		"$mod, F, fullscreen"
       		"$mod, B, exec, $browser"
 		# Screenshot 
-		"$mod, Print, exec, grim -g \"$(slurp)\" - | wl-copy"
+		", Print, exec, grim -g \"$(slurp)\" - | wl-copy"
       
       		# Window focus
       		"$mod, left, movefocus, l"
