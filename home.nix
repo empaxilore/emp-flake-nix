@@ -53,6 +53,7 @@
     #   org.gradle.console=verbose
     #   org.gradle.daemon.idletimeout=3600000
     # '';
+    # Note this is the symlink directory.
 	".dotfiles/emp-flake-nix" = {
 	    source = ./.; 
 	    #config.lib.file.mkOutOfStoreSymlink
