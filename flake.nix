@@ -5,13 +5,20 @@
 		inputs = {
 
 			# Nix pkgs url
-			nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
+			nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
 
 			# Home-manager url
 			home-manager = {
-				url = "github:nix-community/home-manager/release-24.11";
-				inputs.nixpkgs.follows = "nixpkgs";
+				       url = "github:nix-community/home-manager/release-25.05";
+				       inputs.nixpkgs.follows = "nixpkgs";
 			};
+
+			# Stylix Module Option
+			stylix = {
+      				 url = "github:danth/stylix/release-25.05";
+      				 inputs.nixpkgs.follows = "nixpkgs";
+    			};
+			
 		};
 
 		outputs = { self, nixpkgs, home-manager, ... }@inputs:
@@ -35,6 +42,7 @@
 
 			  modules = [
 				./configuration.nix
+				stylix.nixosModules.stylix
 				home-manager.nixosModules.home-manager
 				{
 				    home-manager.useGlobalPkgs = true;
