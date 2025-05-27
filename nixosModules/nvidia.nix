@@ -20,9 +20,13 @@
 			package = config.boot.kernelPackages.nvidiaPackages.stable;
 
 			prime = {
-				sync.enable = true;
+				sync.enable = false;
 
 				# gonna be using offload for laptop..
+				offload = {
+					  enable = true;
+					  enableOffloadCmd = true;
+		                          };
 
 				nvidiaBusId = "PCI:1:0:0";
 				intelBusId = "PCI:0:2:0";
