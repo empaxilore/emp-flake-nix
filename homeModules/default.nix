@@ -8,5 +8,6 @@
 		imports = [
 			./hyprland/default.nix
 			./terminals/default.nix
+			./stylix.nix
 		];
 	}
