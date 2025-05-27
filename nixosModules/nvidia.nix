@@ -11,7 +11,7 @@
 
 			#power management
 			powerManagement.enable = true;
-			powerManagement.finegrained = false;
+			powerManagement.finegrained = true;
 
 			open = false;
 
@@ -21,6 +21,8 @@
 
 			prime = {
 				sync.enable = true;
+
+				# gonna be using offload for laptop..
 
 				nvidiaBusId = "PCI:1:0:0";
 				intelBusId = "PCI:0:2:0";
