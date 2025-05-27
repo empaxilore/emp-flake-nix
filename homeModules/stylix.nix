@@ -1,4 +1,4 @@
-
+{
 
 	# stylix configurations.
 	# Stylix for Home Manager
@@ -22,3 +22,4 @@
       			gtk.enable = false; # Avoid theming desktop environment
                 };
        };
+}
