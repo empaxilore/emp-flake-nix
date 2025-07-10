@@ -32,10 +32,15 @@
        				   name = "Departure Mono";
       		        };
      		        sizes = {
-                        terminal = 12; # Set font size for Kitty
+                        terminal = 14; # Set font size for Kitty
                         };
                 };
-    		opacity.terminal = 0.7; # Set Kitty background opacity to 90%
+    		opacity.terminal = 0.85; # Set Kitty background opacity 
+		cursor = {
+			name ="Nordzy-cursors";
+			package = pkgs.nordzy-cursor-theme;
+			size = 24;
+		};
     		targets = {
       			kitty.enable = true; # Enable theming for Kitty
       			# set false to disable
