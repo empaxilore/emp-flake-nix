@@ -28,7 +28,7 @@
       		#"col.inactive_border" = "rgba(595959aa)";
       		layout = "dwindle";
       		allow_tearing = false;
-    	};
+    		};
 
     	# Laptop-specific configurations
     	#  usually has a touchpad
@@ -86,6 +86,12 @@
       		workspace_swipe = true;
       		workspace_swipe_fingers = 3;
     	};
+
+	# Cursor settings
+	env = [
+	  "XCURSOR_THEME,Nordzy-cursors"
+	  "XCURSOR_SIZE,24"
+	];
 
     	# Window rules
     	windowrulev2 = [
