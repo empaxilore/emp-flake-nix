@@ -91,6 +91,7 @@
     neovim
     git
     kitty
+    vscode-fhs
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
