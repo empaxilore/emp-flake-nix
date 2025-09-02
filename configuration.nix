@@ -92,6 +92,7 @@
     git
     kitty
     vscode-fhs
+    yazi
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
