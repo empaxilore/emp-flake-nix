@@ -2,7 +2,11 @@
 
 
 {
-
+	home.pointerCursor = {
+			gtk.enable = true;
+			name = "Nordzy-cursors";
+			size = 24;
+		};
 	# stylix configurations.
 	# Stylix for Home Manager
   	stylix = {
@@ -41,12 +45,7 @@
 			package = pkgs.nordzy-cursor-theme;
 			size = 24;
 		};
-		home.pointerCursor = {
-			gtk.enable = true;
-			name = "Nordzy-cursors";
-			size = 24;
-		};
-    		targets = {
+	    		targets = {
       			kitty.enable = true; # Enable theming for Kitty
       			# set false to disable
       			#vscode.enable = false;
