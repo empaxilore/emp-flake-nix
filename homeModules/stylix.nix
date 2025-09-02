@@ -54,10 +54,6 @@
 
 			# GTK things
       			gtk.enable = true; # Avoid theming desktop environment
-			gtk.iconTheme = { 
-			  package = pkgs.papirus-icon-theme;
-			  name = "Papirus-Dark";
-			};
 
                 };
        };
