@@ -1,4 +1,5 @@
 # Starship for terminals
+{ config, pkgs, lib, ... }:
 
 {
 
