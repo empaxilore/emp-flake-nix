@@ -50,7 +50,7 @@
       			kitty.enable = true; # Enable theming for Kitty
       			# set false to disable
       			#vscode.enable = false;
-      			gtk.enable = false; # Avoid theming desktop environment
+      			gtk.enable = true; # Avoid theming desktop environment
                 };
        };
 }
