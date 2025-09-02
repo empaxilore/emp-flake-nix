@@ -39,12 +39,17 @@
     #   echo "Hello, ${config.home.username}!"
     # '')
     pkgs.departure-mono
+    pkgs.papirus-icon-theme
   ];
   # font options
   fonts.fontconfig.enable = true;
   fonts.fontconfig.defaultFonts = {
    monospace = [ "Departure Mono" ]; 	
 
+  };
+  gtk.iconTheme = {
+	name = "Papirus";
+	package = pkgs.papirus-icon-theme;
   };
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
