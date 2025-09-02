@@ -6,7 +6,7 @@
 	   enable = true;
 	   initExtra = ''
 	     eval "$(starship init bash)"
-	     alias cat ="bat"
+	     alias cat="bat"
 	     '';
 
 	};	
