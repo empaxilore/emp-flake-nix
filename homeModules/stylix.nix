@@ -36,7 +36,7 @@
        				   name = "Departure Mono";
       		        };
      		        sizes = {
-                        terminal = 14; # Set font size for Kitty
+                        terminal = 11; # Set font size for Kitty
                         };
                 };
     		opacity.terminal = 0.85; # Set Kitty background opacity 
