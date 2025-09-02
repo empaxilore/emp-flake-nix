@@ -37,6 +37,7 @@
 			networkmanagerapplet # Network Mangement Tray
 			networkmanager
 			blueman # Bluetooth
+			bat
 			
 			# Audio Utility
 
