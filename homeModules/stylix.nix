@@ -48,6 +48,7 @@
 		};
 	    		targets = {
       			kitty.enable = true; # Enable theming for Kitty
+			wofi.enable = true; 
 
       			# set false to disable
       			#vscode.enable = false;
