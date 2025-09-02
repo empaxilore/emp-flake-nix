@@ -40,7 +40,7 @@
                         terminal = 11; # Set font size for Kitty
                         };
                 };
-    		opacity.terminal = 0.85; # Set Kitty background opacity 
+    		opacity.terminal = 1; # Set Kitty background opacity 
 		cursor = {
 			name ="Nordzy-cursors";
 			package = pkgs.nordzy-cursor-theme;
@@ -48,9 +48,17 @@
 		};
 	    		targets = {
       			kitty.enable = true; # Enable theming for Kitty
+
       			# set false to disable
       			#vscode.enable = false;
+
+			# GTK things
       			gtk.enable = true; # Avoid theming desktop environment
+			gtk.iconTheme = { 
+			  package = pkgs.papirus-icon-theme;
+			  name = "Papirus-Dark";
+			};
+
                 };
        };
 }
