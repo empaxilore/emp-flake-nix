@@ -51,9 +51,9 @@
 
 				    # That backup error is stupid
 				    home-manager.backupFileExtension = "backup";
-				    home-manager.extraSpecialArgs = { inherit inputs; };
+				    #home-manager.extraSpecialArgs = { inherit inputs; };
 				    home-manager.sharedModules = [
-					stylix.homeManagerModules.stylix
+					stylix.homeModules.stylix
 				    ];
 				}
 			  ];
