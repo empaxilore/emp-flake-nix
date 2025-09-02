@@ -40,7 +40,7 @@
                         terminal = 11; # Set font size for Kitty
                         };
                 };
-    		opacity.terminal = .55; # Set Kitty background opacity 
+    		opacity.terminal = .75; # Set Kitty background opacity 
 		cursor = {
 			name ="Nordzy-cursors";
 			package = pkgs.nordzy-cursor-theme;
