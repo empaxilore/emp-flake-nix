@@ -35,7 +35,8 @@
 			nixosConfigurations = {
 
 			  nixos = lib.nixosSystem {
-			
+
+			  inherit system;	
 			  specialArgs = {inherit inputs system;};
 
 			  modules = [
