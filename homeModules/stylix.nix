@@ -11,6 +11,7 @@
 	# Stylix for Home Manager
   	stylix = {
     		enable = true; # Enables Stylix for user-level theming
+		overlays.enable = false; #bs error
     		base16Scheme = {
 		base00 = "2E3440"; # Default background (Nord0)
       		base01 = "3B4252"; # Lighter background (Nord1)
