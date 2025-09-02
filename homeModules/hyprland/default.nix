@@ -54,6 +54,14 @@
 			swayidle
 			swaylock
 		];
+		# wofi customization
+		programs.wofi = {
+			enable = true;
+			settings = {
+			  allow_images = true;
+			  insensitive = true;
+			};
+		};
 		# waybar
 		# Configure Waybar for a clean status bar
   		programs.waybar = {
